@@ -60,8 +60,9 @@ def main():
     st.markdown("---")
     
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSptevZsku1ACeJhcPu_4CmO5VjH11HOZeSsg&s")
-    st.sidebar.image(image)
+    image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSptevZsku1ACeJhcPu_4CmO5VjH11HOZeSsg&s"
+    st.sidebar.image("/home/rzwitch/Downloads/randy-streamlit.png", use_column_width=True)
+
 
     # Botão para carregar arquivo na aplicação
     st.sidebar.write("## Suba o arquivo")
