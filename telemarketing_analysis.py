@@ -10,7 +10,7 @@ from io                  import BytesIO
 
 # Configuração inicial da página da aplicação
 st.set_page_config(page_title = 'Telemarketing analisys',
-                   page_icon = 'https://github.com/DerekMenezes/Streamlit/blob/main/telmarketing_icon.png',
+                   page_icon = 'https://github.com/DerekMenezes/Streamlit/blob/main/telmarketing_icon.png?raw=true',
                    layout="wide",
                    initial_sidebar_state='expanded')
 
@@ -60,7 +60,7 @@ def main():
     st.markdown("---")
     
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open("https://github.com/DerekMenezes/Streamlit/blob/main/Bank-Branding.jpg")
+    image = Image.open("https://github.com/DerekMenezes/Streamlit/blob/main/Bank-Branding.jpg?raw=true")
     st.sidebar.image(image)
 
     # Botão para carregar arquivo na aplicação
