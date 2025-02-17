@@ -7,11 +7,10 @@ import matplotlib.pyplot as plt
 from PIL                 import Image
 from io                  import BytesIO
 
-# streamlit run "/Users/joicealves/Downloads/Material_de_apoio_M19_Cientista de Dados/py/app_7.py"
 
 # Configuração inicial da página da aplicação
 st.set_page_config(page_title = 'Telemarketing analisys',
-                   page_icon = '/Users/joicealves/Downloads/Material_de_apoio_M19_Cientista de Dados/img/telmarketing_icon.png',
+                   page_icon = 'https://github.com/DerekMenezes/Streamlit/blob/main/telmarketing_icon.png',
                    layout="wide",
                    initial_sidebar_state='expanded')
 
@@ -56,7 +55,7 @@ def to_excel(df):
 def main():
     # Configuração inicial da página da aplicação
     #st.set_page_config(page_title = 'Telemarketing analisys', \
-     #   page_icon = '../img/telmarketing_icon.png',
+     #   page_icon = 'https://github.com/DerekMenezes/Streamlit/blob/main/Bank-Branding.jpg',
       #  layout="wide",
        # initial_sidebar_state='expanded'
     #)
