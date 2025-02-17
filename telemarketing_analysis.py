@@ -60,7 +60,7 @@ def main():
     st.markdown("---")
     
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open("https://github.com/DerekMenezes/Streamlit/blob/main/Bank-Branding.jpg?raw=true")
+    image = Image.open('https://github.com/DerekMenezes/Streamlit/blob/main/Bank-Branding.jpg?raw=true')
     st.sidebar.image(image)
 
     # Botão para carregar arquivo na aplicação
