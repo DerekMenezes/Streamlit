@@ -53,19 +53,14 @@ def to_excel(df):
 
 # Função principal da aplicação
 def main():
-    # Configuração inicial da página da aplicação
-    #st.set_page_config(page_title = 'Telemarketing analisys', \
-     #   page_icon = 'https://github.com/DerekMenezes/Streamlit/blob/main/Bank-Branding.jpg',
-      #  layout="wide",
-       # initial_sidebar_state='expanded'
-    #)
+
 
     # Título principal da aplicação
     st.write('# Telemarketing analisys')
     st.markdown("---")
     
     # Apresenta a imagem na barra lateral da aplicação
-    image = Image.open("/Users/joicealves/Downloads/Material_de_apoio_M19_Cientista de Dados/img/Bank-Branding.jpg")
+    image = Image.open("https://github.com/DerekMenezes/Streamlit/blob/main/Bank-Branding.jpg")
     st.sidebar.image(image)
 
     # Botão para carregar arquivo na aplicação
